@@ -44,7 +44,7 @@ $(DEST):
 test:
 	echo $@
 
- init:
+init:
 	scripts/init.sh
 	brew install cmake ninja http-server
 	code --install-extension llvm-vs-code-extensions.vscode-clangd
